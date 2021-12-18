@@ -1,0 +1,115 @@
+/* background colors */
+.bg-green{background-color: var(--green-color);}
+.bg-white-sm{background-color: var(--whitesmoke-color);}
+.bg-dark{background-color: var(--dark-color);}
+.bg-white{background-color: var(--light-color);}
+
+/* text colors */
+.text-dark{color: var(--dark-color);}
+.text-green{color: var(--green-color);}
+.text-white{color: var(--light-color);}
+.text-white-sm{color: var(--whitesmoke-color);}
+.text-grey{color: var(--grey-color);}
+
+/* text stylings */
+.text-center{text-align: center;}
+.text-uppercase{text-transform: uppercase;}
+.text-capitalize{text-transform: capitalize;}
+
+/* fonts sizes */
+.font-sm{font-size: 1.4rem!important;}
+.font-md{font-size: 1.8rem!important;}
+.font-lg{font-size: 2.4rem!important;}
+.font-xl{font-size: 3rem!important;}
+
+/* font weights */
+.fw-5{font-weight: 500!important;}
+.fw-6{font-weight: 600!important;}
+.fw-7{font-weight: 700!important;}
+
+/* text and paragraphs stylings */
+.lead{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.text{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+/* button stylings */
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    min-width: 130px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    background-color: var(--green-color);
+    color: var(--light-color);
+    border-radius: 2.4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 0 2rem;
+}
+
+/* layout stylings */
+.container{
+    max-width: calc(1145px - 20px);
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+.flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.grid{
+    display: grid;
+}
+
+/* padding and margins */
+.py-4{
+    padding: 4rem 0;
+}
+.mx-auto{
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+/* section title stylings */
+.section-title{
+    text-transform: capitalize;
+    font-size: 3.6rem;
+    text-align: center;
+}
+.section-title h2{
+    margin-bottom: 2.5rem;
+}
+
+/* form */
+.form-control{
+    outline: 0;
+    border: none;
+    display: block;
+    background-color: transparent;
+    width: 100%;
+}
+
+/* media queries */
+@media(min-width: 678px){
+    .py-4{
+        padding: 8rem 0;
+    }
+    .section-title h2{
+        margin-bottom: 4.2rem;
+    }
+}

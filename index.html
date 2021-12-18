@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Site</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick slider css -->
+    <link rel = "stylesheet" href = "plugins/slick-1.8.1/slick/slick.css">
+    <link rel = "stylesheet" href = "plugins/slick-1.8.1/slick/slick-theme.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/utilities.css">
+    <link rel = "stylesheet" href = "css/main.css">
+
+</head>
+<body>
+    
+    <!-- header -->
+    <header class = "header" id = "header">
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "#" class = "navbar-brand flex">
+                    <img src = "images/logo.png">
+                    <span class = "text-uppercase text-white font-sm fw-5">education</span>
+                </a>
+                <button type = "button" class = "navbar-toggler-btn text-white">
+                    <i class = "fas fa-bars fa-2x"></i>
+                </button>
+
+                <div class = "navbar-collapse bg-green">
+                    <ul class = "navbar-nav text-capitalize font-md fw-7">
+                        <li class = "nav-item">
+                            <a href = "#header" class = "nav-link text-white">home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#about" class = "nav-link text-white">about us</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#courses" class = "nav-link text-white">courses</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#teachers" class = "nav-link text-white">teachers</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#programs" class = "nav-link text-white">programs</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#contact" class = "nav-link text-white">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class = "header-banner-wrapper">
+            <div class = "header-banner banner-one flex">
+                <div class = "container text-center text-white">
+                    <h1>Knowledge is power</h1>
+                    <p class = "lead">Any successful career start with good education</p>
+                    <button type = "button" class = "btn">Learn more</button>
+                </div>
+            </div>
+            <div class = "header-banner banner-two flex">
+                <div class = "container text-center text-white">
+                    <h1>A school for life</h1>
+                    <p class = "lead">Any successful career start with good education</p>
+                    <button type = "button" class = "btn">Learn more</button>
+                </div>
+            </div>
+            <div class = "header-banner banner-three flex">
+                <div class = "container text-center text-white">
+                    <h1>A Journey to Excellence</h1>
+                    <p class = "lead">Any successful career start with good education</p>
+                    <button type = "button" class = "btn">Learn more</button>
+                </div>
+            </div>
+            <div class = "header-banner banner-four flex">
+                <div class = "container text-center text-white">
+                    <h1>Committed to Excellence</h1>
+                    <p class = "lead">Any successful career start with good education</p>
+                    <button type = "button" class = "btn">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main -->
+    <main>
+        <!-- about section -->
+        <section class = "about bg-white" id = "about">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src = "images/introduction_img.png">
+                    </div>
+                    <div class = "about-right">
+                        <h2 class = "font-xl">Education</h2>
+                        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis impedit esse voluptates culpa non neque rerum pariatur dicta, officia dignissimos eligendi quos corrupti inventore libero?</p>
+                        <div class = "font-md fw-6">
+                            <div class = "about-icon flex">
+                                <img src = "images/intro_icon_1.png">
+                                <span>Learn Anything</span>
+                            </div>
+                            <div class = "about-icon flex">
+                                <img src = "images/intro_icon_2.png">
+                                <span>Talk To Our Instructors</span>
+                            </div>
+                            <div class = "about-icon flex">
+                                <img src = "images/intro_icon_3.png">
+                                <span>Speak With Others</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- features section -->
+        <section class = "features bg-white-sm py-4" id = "features">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2>features</h2>
+                </div>
+                <div class = "features-content grid text-center">
+                    <div class = "features-item">
+                        <div class = "icon bg-white flex">
+                            <img src = "images/features_icon_1.png" alt = "features icon">
+                        </div>
+                        <h3 class = "font-lg">Online Testing</h3>
+                        <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eos earum ipsum ea facilis neque, doloribus asperiores necessitatibus.</p>
+                    </div>
+
+                    <div class = "features-item">
+                        <div class = "icon bg-white flex">
+                            <img src = "images/features_icon_2.png" alt = "features icon">
+                        </div>
+                        <h3 class = "font-lg">Expert Professors</h3>
+                        <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eos earum ipsum ea facilis neque, doloribus asperiores necessitatibus.</p>
+                    </div>
+
+                    <div class = "features-item">
+                        <div class = "icon bg-white flex">
+                            <img src = "images/features_icon_3.png" alt = "features icon">
+                        </div>
+                        <h3 class = "font-lg">Trusted Certifications</h3>
+                        <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eos earum ipsum ea facilis neque, doloribus asperiores necessitatibus.</p>
+                    </div>
+
+                    <div class = "features-item">
+                        <div class = "icon bg-white flex">
+                            <img src = "images/features_icon_4.png" alt = "features icon">
+                        </div>
+                        <h3 class = "font-lg">Scientific Research</h3>
+                        <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eos earum ipsum ea facilis neque, doloribus asperiores necessitatibus.</p>
+                    </div>
+
+                    <div class = "features-item">
+                        <div class = "icon bg-white flex">
+                            <img src = "images/features_icon_5.png" alt = "features icon">
+                        </div>
+                        <h3 class = "font-lg">Audio Video course</h3>
+                        <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eos earum ipsum ea facilis neque, doloribus asperiores necessitatibus.</p>
+                    </div>
+
+                    <div class = "features-item">
+                        <div class = "icon bg-white flex">
+                            <img src = "images/features_icon_6.png" alt = "features icon">
+                        </div>
+                        <h3 class = "font-lg">Professional Courses</h3>
+                        <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eos earum ipsum ea facilis neque, doloribus asperiores necessitatibus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of features section -->
+
+        <!-- courses section -->
+        <section class = "courses bg-white py-4" id = "courses">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2>Courses</h2>
+                </div>
+                <div class = "courses-content grid">
+                    <article class = "courses-item">
+                        <div class = "bg-white-sm">
+                            <div class = "image">
+                                <img src = "images/courses_img_1.png" alt = "course image">
+                            </div>
+                            <div class = "details">
+                                <h3 class = "font-lg">Web Design</h3>
+                                <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo reprehenderit quas!</p>
+                            </div>
+                            <ul class = "text-center fw-6 font-md">
+                                <li>Time: 3 pm</li>
+                                <li>Teacher: Ressie Rottman</li>
+                            </ul>
+                            <a href = "#" class = "btn bg-green">Join Now</a>
+                        </div>
+                    </article>
+
+                    <article class = "courses-item">
+                        <div class = "bg-white-sm">
+                            <div class = "image">
+                                <img src = "images/courses_img_2.png" alt = "course image">
+                            </div>
+                            <div class = "details">
+                                <h3 class = "font-lg">Photography</h3>
+                                <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo reprehenderit quas!</p>
+                            </div>
+                            <ul class = "text-center fw-6 font-md">
+                                <li>Time: 6 pm</li>
+                                <li>Teacher: Floyd Fukuda</li>
+                            </ul>
+                            <a href = "#" class = "btn bg-green">Join Now</a>
+                        </div>
+                    </article>
+
+                    <article class = "courses-item">
+                        <div class = "bg-white-sm">
+                            <div class = "image">
+                                <img src = "images/courses_img_3.png" alt = "course image">
+                            </div>
+                            <div class = "details">
+                                <h3 class = "font-lg">Digita Marketing</h3>
+                                <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo reprehenderit quas!</p>
+                            </div>
+                            <ul class = "text-center fw-6 font-md">
+                                <li>Time: 10 pm</li>
+                                <li>Teacher: Elena Cully</li>
+                            </ul>
+                            <a href = "#" class = "btn bg-green">Join Now</a>
+                        </div>
+                    </article>
+                </div>
+
+                <a href = "#" class = "text-grey view-link text-center">View All</a>
+            </div>
+        </section>
+        <!-- end of courses section -->
+
+        <!-- teachers section -->
+        <section class = "teachers py-4 bg-white-sm" id = "teachers">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2>Our Teachers</h2>
+                </div>
+                <div class = "teachers-content grid text-center">
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_1.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Velvet Vachon</p>
+                            <p class = "text-green font-md fw-5">Design Head</p>
+                        </div>
+                    </div>
+
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_2.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Arlene Anello</p>
+                            <p class = "text-green font-md fw-5">SEO Head</p>
+                        </div>
+                    </div>
+
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_3.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Benton Collet</p>
+                            <p class = "text-green font-md fw-5">Photography Head</p>
+                        </div>
+                    </div>
+
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_4.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Floyd Fukuda</p>
+                            <p class = "text-green font-md fw-5">Marketing Head</p>
+                        </div>
+                    </div>
+
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_5.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Elena Cully</p>
+                            <p class = "text-green font-md fw-5">UX/UI Designer</p>
+                        </div>
+                    </div>
+
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_6.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Burton Brooke</p>
+                            <p class = "text-green font-md fw-5">Web Technologists</p>
+                        </div>
+                    </div>
+
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_7.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Ressie Rottman</p>
+                            <p class = "text-green font-md fw-5">Design Head</p>
+                        </div>
+                    </div>
+
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_8.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Reed Recio</p>
+                            <p class = "text-green font-md fw-5">Photography Head</p>
+                        </div>
+                    </div>
+
+                    <div class = "teachers-item">
+                        <div class = "image">
+                            <img src = "images/teachers_img_9.png" alt = "teachers image">
+                        </div>
+                        <div class = "info">
+                            <p class = "fw-6 font-lg">Nancee Bluford</p>
+                            <p class = "text-green font-md fw-5">SEO Head</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of teachers section -->
+
+        <!-- programs section -->
+        <section class = "programs py-4 bg-white" id = "programs">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2>Programs</h2>
+                </div>
+                <div class = "programs-content grid">
+                    <div class = "programs-item text-white text-center">
+                        <img src = "images/programs_img_1.jpg" alt = "programs image">
+                        <div class = "info">
+                            <p class = "fw-6 font-xl">Pre-college education</p>
+                            <p class = "text">Broaden the creative horizons of your kids.</p>
+                        </div>
+                    </div>
+
+                    <div class = "programs-item text-white text-center">
+                        <img src = "images/programs_img_2.jpg" alt = "programs image">
+                        <div class = "info">
+                            <p class = "fw-6 font-xl">Middle School</p>
+                            <p class = "text">Children will deepen the knowledge & skills they obtained in the elementary school</p>
+                        </div>
+                    </div>
+
+                    <div class = "programs-item text-white text-center">
+                        <img src = "images/programs_img_3.jpg" alt = "programs image">
+                        <div class = "info">
+                            <p class = "fw-6 font-xl">High School</p>
+                            <p class = "text">Preparing youngsters for the adult life</p>
+                        </div>
+                    </div>
+
+                    <div class = "programs-item text-white text-center">
+                        <img src = "images/programs_img_4.jpg" alt = "programs image">
+                        <div class = "info">
+                            <p class = "fw-6 font-xl">International exchange</p>
+                            <p class = "text">Accepting students from abroad</p>
+                        </div>
+                    </div>
+
+                    <div class = "programs-item text-white text-center">
+                        <img src = "images/programs_img_5.jpg" alt = "programs image">
+                        <div class = "info">
+                            <p class = "fw-6 font-xl">Graduate programs</p>
+                            <p class = "text">Solidifying knowledge that was obtained through the long years of learning.</p>
+                        </div>
+                    </div>
+
+                    <div class = "programs-item text-white text-center">
+                        <img src = "images/programs_img_6.jpg" alt = "programs image">
+                        <div class = "info">
+                            <p class = "fw-6 font-xl">Home Education</p>
+                            <p class = "text">Providing robust distant education.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of programs section -->
+
+        <!-- clients section -->
+        <section class = "clients py-4 bg-white-sm" id = "clients">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2>What client say</h2>
+                </div>
+                <div class = "clients-content">
+                    <div class = "clients-item text-center">
+                        <div class = "image mx-auto">
+                            <img src = "images/client_img_1.jpg" alt = "clients image">
+                        </div>
+                        <div>
+                            <p class = "text mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic accusantium asperiores, recusandae, commodi aliquam obcaecati, inventore sequi molestias architecto soluta culpa? Id, exercitationem vero. Iste atque expedita aspernatur. In, explicabo nobis!</p>
+                            <span class = "font-md fw-7">John Doe</span>
+                            <span class = "font-sm fw-6">CEO Smart Edu.</span>
+                        </div>
+                    </div>
+
+                    <div class = "clients-item text-center">
+                        <div class = "image mx-auto">
+                            <img src = "images/client_img_2.jpg" alt = "clients image">
+                        </div>
+                        <div>
+                            <p class = "text mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic accusantium asperiores, recusandae, commodi aliquam obcaecati, inventore sequi molestias architecto soluta culpa? Id, exercitationem vero. Iste atque expedita aspernatur. In, explicabo nobis!</p>
+                            <span class = "font-md fw-7">Jason Copper</span>
+                            <span class = "font-sm fw-6">LA Education Center</span>
+                        </div>
+                    </div>
+
+                    <div class = "clients-item text-center">
+                        <div class = "image mx-auto">
+                            <img src = "images/client_img_3.jpg" alt = "clients image">
+                        </div>
+                        <div>
+                            <p class = "text mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic accusantium asperiores, recusandae, commodi aliquam obcaecati, inventore sequi molestias architecto soluta culpa? Id, exercitationem vero. Iste atque expedita aspernatur. In, explicabo nobis!</p>
+                            <span class = "font-md fw-7">Anita Johnson</span>
+                            <span class = "font-sm fw-6">Senior Faculty Member</span>
+                        </div>
+                    </div>
+
+                    <div class = "clients-item text-center">
+                        <div class = "image mx-auto">
+                            <img src = "images/client_img_4.jpg" alt = "clients image">
+                        </div>
+                        <div>
+                            <p class = "text mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic accusantium asperiores, recusandae, commodi aliquam obcaecati, inventore sequi molestias architecto soluta culpa? Id, exercitationem vero. Iste atque expedita aspernatur. In, explicabo nobis!</p>
+                            <span class = "font-md fw-7">Arthur Harper</span>
+                            <span class = "font-sm fw-6">CEO Global Tech Ed.</span>
+                        </div>
+                    </div>
+
+                    <div class = "clients-item text-center">
+                        <div class = "image mx-auto">
+                            <img src = "images/client_img_5.jpg" alt = "clients image">
+                        </div>
+                        <div>
+                            <p class = "text mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic accusantium asperiores, recusandae, commodi aliquam obcaecati, inventore sequi molestias architecto soluta culpa? Id, exercitationem vero. Iste atque expedita aspernatur. In, explicabo nobis!</p>
+                            <span class = "font-md fw-7">Agatha Miller</span>
+                            <span class = "font-sm fw-6">Professor at HIA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of clients section -->
+
+        <!-- blogs section -->
+        <section class = "blogs py-4 bg-white" id = "blogs">
+            <div class = "container text-center">
+                <div class = "section-title">
+                    <h2>Blog</h2>
+                </div>
+                <div class = "blogs-content">
+                    <div class = "blogs-item text-center">
+                        <div class = "image">
+                            <img src = "images/blog_img_1.jpg" alt = "blogs image">
+                        </div>
+                        <div>
+                            <h3 class = "font-lg">Exploring with desire</h3>
+                            <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi explicabo dolores quisquam laborum nemo?</p>
+                        </div>
+                    </div>
+
+                    <div class = "blogs-item text-center">
+                        <div class = "image">
+                            <img src = "images/blog_img_2.jpg" alt = "blogs image">
+                        </div>
+                        <div>
+                            <h3 class = "font-lg">Education with technologists</h3>
+                            <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi explicabo dolores quisquam laborum nemo?</p>
+                        </div>
+                    </div>
+
+                    <div class = "blogs-item text-center">
+                        <div class = "image">
+                            <img src = "images/blog_img_3.jpg" alt = "blogs image">
+                        </div>
+                        <div>
+                            <h3 class = "font-lg">Learning from Nature</h3>
+                            <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi explicabo dolores quisquam laborum nemo?</p>
+                        </div>
+                    </div>
+
+                    <div class = "blogs-item text-center">
+                        <div class = "image">
+                            <img src = "images/blog_img_4.jpg" alt = "blogs image">
+                        </div>
+                        <div>
+                            <h3 class = "font-lg">Turning goals into reality</h3>
+                            <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi explicabo dolores quisquam laborum nemo?</p>
+                        </div>
+                    </div>
+
+                    <div class = "blogs-item text-center">
+                        <div class = "image">
+                            <img src = "images/blog_img_5.jpg" alt = "blogs image">
+                        </div>
+                        <div>
+                            <h3 class = "font-lg">The nation into education</h3>
+                            <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi explicabo dolores quisquam laborum nemo?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href = "#" class = "btn bg-green mx-auto">Read more</a>
+            </div>
+        </section>
+        <!-- end of blogs section -->
+
+        <!-- newsletter section -->
+        <section class = "newsletter py-4" id = "newsletter">
+            <div class = "container">
+                <div class = "newsletter-content flex text-white text-center">
+                    <h2 class = "font-xl">Subscribe to our Newsletter</h2>
+                    <form>
+                        <input type = "email" class = "form-control font-md text-white mx-auto">
+                        <button type = "submit" class = "btn bg-green">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- end of newsletter section -->
+
+        <!-- contact section -->
+        <section class = "contact py-4 bg-white" id = "contact">
+            <div class = "container">
+                <div class = "section-title">
+                    <h2>Contact</h2>
+                </div>
+                <div class = "contact-content grid">
+                    <div class = "contact-right">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.47339855874!2d-0.24168085317947707!3d51.528558242069835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2snp!4v1639724107420!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                        <div class = "contact-info grid text-center">
+                            <div class = "contact-info-group">
+                                <span class = "text-green">
+                                    <i class = "fas fa-map-marker-alt fa-2x"></i>
+                                </span>
+                                <p class = "text font-md fw-6">LSE Houghton Street London, United Kingdom (UK)</p>
+                            </div>
+                            <div class = "contact-info-group">
+                                <span class = "text-green">
+                                    <i class = "fas fa-envelope fa-2x"></i>
+                                </span>
+                                <p class = "text font-md fw-6">education@gmail.com</p>
+                            </div>
+                            <div class = "contact-info-group">
+                                <span class = "text-green">
+                                    <i class = "fas fa-phone fa-2x"></i>
+                                </span>
+                                <p class = "text font-md fw-6">+44(20) 6475 5766</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "contact-left">
+                        <form action = "" method = "" class = "font-md text-center">
+                            <input type = "text" class = "form-control fw-6" placeholder="Full Name" name = "full_name">
+                            <input type = "email" class = "form-control fw-6" placeholder="E-mail" name = "email">
+                            <textarea rows = "5" class = "form-control fw-6" placeholder="Message" name = "message"></textarea>
+                            <button type = "submit" class = "btn bg-green">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+    </main>
+    <!-- end of main -->
+
+    <!-- footer -->
+    <footer class = "footer bg-dark" id = "footer">
+        <div class = "container">
+            <div class = "footer-content grid">
+                <div class = "footer-logo flex">
+                    <img src = "images/logo.png">
+                    <span class = "text-uppercase text-white font-sm fw-5">education</span>
+                </div>
+
+                <div class = "footer-links font-md text-center">
+                    <a href = "#" class = "text-white fw-5">Home</a>
+                    <a href = "#" class = "text-white fw-5">About Us</a>
+                    <a href = "#" class = "text-white fw-5">Courses</a>
+                    <a href = "#" class = "text-white fw-5">Teachers</a>
+                    <a href = "#" class = "text-white fw-5">Programs</a>
+                    <a href = "#" class = "text-white fw-5">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+
+
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- slick slider js -->
+    <script src = "plugins/slick-1.8.1/slick/slick.js"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
